@@ -37,6 +37,8 @@ public class ExampleClass : MonoBehaviour
         {
             update = 0.0f;
             Debug.Log("Update");
+            Debug.Log("Update");
+            Debug.Log("Update");
         }
     }
 }
