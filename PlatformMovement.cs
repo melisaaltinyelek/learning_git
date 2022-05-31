@@ -17,6 +17,9 @@ public class ExampleClass : MonoBehaviour
     void Awake()
     {
         Debug.Log("Awake");
+        Debug.Log("Awake");
+        Debug.Log("Awake");
+        Debug.Log("Awake");
         update = 0.0f;
     }
 
