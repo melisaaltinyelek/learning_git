@@ -12,20 +12,20 @@ using System.Collections;
 
 public class ExampleClass : MonoBehaviour
 {
-    private float update;
+    private float coolvariable;
 
     void Awake()
     {
         Debug.Log("Awake Awake Awake");
         Debug.Log("Awake");
         Debug.Log("Awake");
-        update = 10.0f;
+        coolvariable = 1234.0f;
     }
 
     IEnumerator Start()
     {
         Debug.Log("Start1");
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(20.5f);
         Debug.Log("Start2");
     }
 
@@ -35,6 +35,7 @@ public class ExampleClass : MonoBehaviour
         if (update > 1.0f)
         {
             update = 0.0f;
+            Debug.Log("Update");
             Debug.Log("Update");
         }
     }
