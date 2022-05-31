@@ -19,7 +19,7 @@ public class ExampleClass : MonoBehaviour
         Debug.Log("Awake Awake Awake");
         Debug.Log("Awake");
         Debug.Log("Awake");
-        update = 0.0f;
+        update = 10.0f;
     }
 
     IEnumerator Start()
